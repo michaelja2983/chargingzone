@@ -76,7 +76,7 @@
 #center-aims {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+    
 }
 
 .left-aims-heading {
@@ -123,4 +123,19 @@ hr {
     border-style: solid;
     border-color: #cccccc;
     border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
+
+#Type1 {
+    height:300px;
+    width:10%;
+    background: url("/assets/images/type1.jpg");
+     
+    }
+
+    #connector-types {
+        margin: 20px 0;
+        text-align: center;
+        font-size: 280%;
+    }
