@@ -1,0 +1,76 @@
+
+#hero-image {
+    height:600px;
+    width:100%;
+    background: url("/assets/images/hero.jpg") no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards ;
+   
+    }
+
+#hero-outer {
+    height:600px;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#covertext, #covertext h3 {
+    
+}
+
+#covertext {
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 300px;
+
+    padding-top: 10px;
+    padding-left: 20px;
+    
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom:80px;
+    right: 150px;
+
+    position: absolute;
+}
+
+#charging-zone-aims {
+    height: 600px
+
+}
+
+#left-aims {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-aims {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-aims {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}

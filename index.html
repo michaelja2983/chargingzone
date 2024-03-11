@@ -13,42 +13,74 @@
         <a href="index.html">
             <h2>The Charging Zone</h2>
         </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li>
-                    <a href="charginglocations.html">Charging Locations</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Charging Locations</a>
                 </li>
-                <li>
-                    <a href="getintouch">Get in Touch</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
                 </li>
-                <li>
-                    <a href="aboutus">About Us</a>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
-            </ul>
-        </nav>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
     </header>
-    <section>
-        main image and relevant overlay
+    <section id="hero-outer">
+        <div id="hero-image">
+            <div id="covertext">
+                <h3>One Stop Shop</h3>
+                <h4>For Electric Car Charging Needs</h4>
+            </div>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    
+                  </div>
+                  
+                </div>
+              </div>
+
+        </div>
+        
      
     </section>
-    <section>
-        Immage and site aims
+    <section id="charging-zone-aims">
+        <h1>What is the Charging Zone?</h1>
+        <div id="left-aims">Left</div>
+        <div id="right-aims">Right</div>
+        <div id="center-aims">Center</div>
     </section>
     <section>
         <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                One of three columns
-              </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
+            <div class="row row-cols-4">
+              <div class="col type1">Type 1</div>
+              <div class="col">Type 2</div>
+              <div class="col">CHAdeMO</div>
+              <div class="col">CSS</div>
             </div>
           </div>
     </section>
