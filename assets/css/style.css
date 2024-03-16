@@ -1,8 +1,10 @@
 
 
-#logo {
+.navbar-brand {
     padding-top: 30px;
     color: #023E8A ;
+    padding-left: 30px;
+    font-size: 300%;
 }
 
 #hero-image {
@@ -129,12 +131,7 @@ hr {
     margin: 0 auto;
 }
 
-#Type1 {
-   
-    width:100%;
-    background: url("/assets/images/type1.jpg");
-     
-    }
+
 
     #connector-types {
         height: 600px;
@@ -146,3 +143,20 @@ hr {
         text-align: center;
         font-size: 280%;
     }
+
+    .types {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .types p {
+        font-size: 200%;
+        border-top: 50px;
+    }
+
+    @media (min-width: 1250px) {
+        .narrow {display: none;}
+        }
+        @media (max-width: 1249px) {
+        .wide {display: none;}
+        }
