@@ -174,3 +174,29 @@ footer {
 .types {
     text-align: center;
 }
+
+@media (min-width: 1250px) {
+    .narrow {display: none;}
+    }
+    @media (max-width: 1249px) {
+    .wide {display: none;}
+    }
+
+#charging {
+    height: 600px;
+    background-color: #90E0EF;
+    text-align: center;
+    padding-top: 15px;
+    }
+
+#contactus {
+    height: 300px;
+    background-color: #023E8A;
+    padding: 30px;
+    
+}
+
+#contactus h3 {
+    text-align: center;
+}
+
