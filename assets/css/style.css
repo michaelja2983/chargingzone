@@ -144,6 +144,26 @@ hr {
         font-size: 280%;
     }
 
-.container h2 {
+.container p {
     color: white;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #7777777
 }
