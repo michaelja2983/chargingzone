@@ -175,12 +175,42 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 1250px) {
-    .narrow {display: none;}
+@media screen and (max-width: 1393px ) {
+    #charging-zone-aims {
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto ;
     }
-    @media (max-width: 1249px) {
-    .wide {display: none;}
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
     }
+
+    #left-aims, #right-aims {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #circle-holder {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #connector-types {
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+        float: left;
+
+    }
+    
+    }
+
+}
 
 #charging {
     height: 600px;
@@ -190,7 +220,7 @@ footer {
     }
 
 #contactus {
-    height: 300px;
+    height: 600px;
     background-color: #023E8A;
     padding: 30px;
     
@@ -200,3 +230,6 @@ footer {
     text-align: center;
 }
 
+.charging-map {
+    padding-top: 30px;
+}
