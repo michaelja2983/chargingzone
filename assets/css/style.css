@@ -3,8 +3,8 @@
 .navbar-brand {
     padding-top: 30px;
     color: #023E8A ;
-    padding-left: 30px;
-    font-size: 300%;
+    padding-left: 10px;
+    font-size: 200%;
 }
 
 #hero-image {
@@ -35,9 +35,6 @@
     }
 }
 
-#covertext, #covertext h3 {
-    
-}
 
 #covertext {
     font-size: 80%;
@@ -146,13 +143,13 @@ hr {
         color: white;
     }
 
-.container p {
-    color: white;
-    padding-top: 10px;
-}
+
+
 
 footer {
-    height: 150px;
+    height: 180px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .types {
@@ -171,20 +168,20 @@ footer {
         margin-top: 0;
     }
 
-    #left-aims, #right-aims {
+    .left-aims, .right-aims {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #circle-holder {
+    .circle-holder {
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #connector-types {
+    .connector-types {
         width: 100%;
         height: 1200px;
         margin: 0 auto;
@@ -195,27 +192,33 @@ footer {
     
 
 
-#charging {
+.charging {
     height: 700px;
     background-color: #90E0EF;
     text-align: center;
     padding-top: 15px;
     }
 
-.text-center h4 {
+#charging, h3 {
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-center, h4 {
+    text-align: left;
     padding-top: 30px;
     padding-bottom: 30px;
     }
 
-#contactus {
+.contactus {
     height: 600px;
     background-color: #023E8A;
     padding: 30px;
     
 }
 
-#contactus h3 {
+.contactus h3 {
     text-align: center;
 }
 
@@ -223,17 +226,56 @@ footer {
     padding-top: 30px;
 }
 
-#text-center p {
+.text-center p {
     padding-left: 60px;
 }
 
-.navbar-brand {
-    margin-left: 70px;
+.address-contact {
+    text-align: right;
+    font-size: 200%;
 }
 
-footer h3 {
+.social-network h3 {
     display: block;
-    text-align: right;
+    text-align: center;
+    
 }
+
+.social-network li {
+    display: inline;
+    text-align: center;
+    
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
+
+ul {
+    list-style-type: none;
+}
+
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    margin-left: 30px;
+}
+
+input {
+    display: inline-block;
+    float: left;
+}
+
+
+
+
+
+
 
 
