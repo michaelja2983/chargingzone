@@ -35,14 +35,25 @@
     
     <section id="contactus">
         <h3>Please get in touch using the form below</h3>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <form>
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+          <div class="col">
+              <input type="email" class="form-control" placeholder="Email Address">
+            </div>
+          <div class="form-group">
+              <label for="exampleFormControlTextarea1">Please enter your message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+  
+        </form>
 </section>
     <footer>
         <ul class="social-networks">
