@@ -107,9 +107,20 @@ hr {
         color: white;
     }
 
-    .types, p {
+    .types p {
         padding-top: 20px;
         color:white;
+        text-align: center;
+    
+    }
+
+    .types h4 {
+         color: white;
+         text-align: center;
+    }
+
+    .types h2 {
+        color: white;
         text-align: center;
     }
 
@@ -122,9 +133,7 @@ footer {
     padding-bottom: 30px;
 }
 
-.types {
-    text-align: center;
-}
+
 
 @media screen and (max-width: 1393px ) 
     #charging-zone-aims {
@@ -235,6 +244,11 @@ label {
 input {
     display: inline-block;
     float: left;
+}
+
+#charging-zone > i {
+    display: inline-block;
+    padding-left: 50px;
 }
 
 
