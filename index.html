@@ -31,28 +31,7 @@
               <a class="nav-link" href="/contact.html">Contact Us</a>
             </li>
             <li>
-              <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+              </div>
     </div>
   </div>
 </div>
@@ -81,16 +60,16 @@
      
     </section>
     <section id="charging-zone-aims">
-      <h2>What is the Charging Zone?</h2>
-      <div class="container">
-        <div class="row charging-zone">
+        <div class="container charging-zone">
+          <h2>What is the Charging Zone?</h2>
+        <div class="row">
           <div class="col-sm">
             <h4>Charging Locations<i class="fa-solid fa-charging-station"></i></h4>
                 <hr>
                 <p>Find the nearest charging location to you based on postcode</p>
           </div>
           <div class="col-sm">
-            <h4>Charger Types <i class="fa-solid fa-plug"></i></h4>
+            <h4>Charger Types<i class="fa-solid fa-plug"></i></h4>
                 <hr>
                 <p>Learn about the various connector types available on electric vehicles</p>
           </div>
@@ -98,8 +77,39 @@
             <h4>Keeping Social<i class="fa-solid fa-star"></i></h4>
                 <hr>
                 <p>Join the club, keep updated with our news and changes</p>
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Join The Club
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Welcome to Join the Club</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Please fill in your details below and we will forward you further information on becoming a member<form action="/action_page.php">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe"><br><br>
+          <input type="submit" value="Submit">
+        </form> </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
                 <br>
-                          </div>
+                
+          </div>
         </div>
       </div>
       
@@ -133,16 +143,16 @@
       <div class="container social">
         <div class="row">
           <div class="col-sm-4">
-            123 Anywhere Street 
+            <p>123 Anywhere Street
             <br>
-            Anywhere 
+            Anywhere
             <br>
-            AW23 AXW
+            AW23 AXW</p>
           </div>
           <div class="col-sm-4">
               <ul class="social-networks">
-                <h2>Social Media</h2>
                 <li>
+                  <h2>Social Media</h2>
                 <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></i></i></a>
                 <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
@@ -161,6 +171,7 @@
           </div>
         </div>
       </div>
+      
      
     </footer>
     
