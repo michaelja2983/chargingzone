@@ -84,13 +84,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Built With
 
 * [![FontAwesome][fontawesome.com]][FontAwesome-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,10 +136,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Navigation Bar
+- [ ] HERO IMAGE and strapline.
+- [ ] Sign Up Membership Button
+- [ ] Footer Bar
+- [ ] Sign Up Membership Button
+- [ ] Charging Map
+- [contact_us_screenshot] Contact Us Form 
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
@@ -233,3 +231,4 @@ Project Link: [https://github.com/michaelja2983/chargingzone](https://github.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 [FontAwesome-url]: https://fontawesome.com
+[contact_us_screenshot]: images/contact_us_screenshot.png
