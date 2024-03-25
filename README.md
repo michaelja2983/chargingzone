@@ -24,7 +24,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">The Charging Zone</h3>
 
   <p align="center">
     The Charging Zone Aims to offer a one stop shop for electric charging needs in terms of membership, nearest chargers and education around the types of charger available and their charging speeds.
