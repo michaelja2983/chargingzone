@@ -102,30 +102,27 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Deployment
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Deployment
+The website was deployed using GitHub Pages by following these steps:
 
-### Installation
+In the GitHub repository navigate to the Settings tab
+On the left hand menu select Pages
+For the source select Branch: master
+After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://4n4ru.github.io/CI_MS1_BodelschwingherHof/"
+You can for fork the repository by following these steps:
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+Go to the GitHub repository
+Click on Fork button in upper right hand corner
+You can clone the repository by following these steps:
 
+Go to the GitHub repository
+Locate the Code button above the list of files and click it
+Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+Open Git Bash
+Change the current working directory to the one where you want the cloned directory
+Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) 7.Press Enter to create your local clone.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
