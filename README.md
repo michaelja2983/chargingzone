@@ -20,7 +20,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/chargingzone">
+  <a href="https://github.com/michaelja2983/chargingzone">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -29,14 +29,14 @@
   <p align="center">
     The Charging Zone Aims to offer a one stop shop for electric charging needs in terms of membership, nearest chargers and education around the types of charger available and their charging speeds.
     <br />
-    <a href="https://github.com/github_username/chargingzone"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/michaelja2983/chargingzone"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/chargingzone">View Demo</a>
+    <a href="https://github.com/michaelja2983/chargingzone">View Demo</a>
     ·
-    <a href="https://github.com/github_username/chargingzone/issues">Report Bug</a>
+    <a href="https://github.com/michaelja2983/chargingzone/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/chargingzone/issues">Request Feature</a>
+    <a href="https://github.com/michaelja2983/chargingzone/issues">Request Feature</a>
   </p>
 </div>
 
