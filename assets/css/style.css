@@ -1,11 +1,6 @@
 
 
-.navbar-brand {
-    padding-top: 30px;
-    color: #023E8A ;
-    padding-left: 10px;
-    font-size: 200%;
-}
+
 
 #hero-image {
     height:600px;
@@ -123,6 +118,7 @@ footer {
     height: 180px;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: #90E0EF;
 }
 
 
@@ -291,6 +287,8 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+  
 
 
 
