@@ -73,7 +73,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://michaelja2983.github.io/chargingzone/)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
@@ -83,7 +83,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
+* [![FontAwesome][fontawesome.com/]][FontAwesome-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
@@ -110,7 +110,7 @@ The website was deployed using GitHub Pages by following these steps:
 In the GitHub repository navigate to the Settings tab
 On the left hand menu select Pages
 For the source select Branch: master
-After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://4n4ru.github.io/CI_MS1_BodelschwingherHof/"
+After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://michaelja2983.github.io/chargingzone/"
 You can for fork the repository by following these steps:
 
 Go to the GitHub repository
