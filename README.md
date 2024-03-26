@@ -90,7 +90,7 @@ The website is designed to be appealing and easy to navigate. In the header is a
 ### Wireframes
 
 <details><summary>Home</summary>
-<img src="docs/homepage.png">
+<img src="/assets/docs/homepage.png">
 </details>
 <details><summary>Charging Locations</summary>
 <img src="docs/wireframes/wireframes-about.png">
