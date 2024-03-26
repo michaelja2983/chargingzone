@@ -74,7 +74,7 @@ Colors
 
 Colors were chosen to complement the HERO image, warm and inviting blues with contrasting red has been chosen as a striking, bold an inviting space. To find the best complemenry colours I used ADOBE color which once selected were tested on WebAIM to ensure the constrast of colours was best suited together.
 
-***IMAGE OF ADOBE colour
+![colors](https://github.com/michaelja2983/chargingzone/assets/148334530/fde9bf9b-9fea-4950-9dc1-18a8977289b3)
 
 Font
 
