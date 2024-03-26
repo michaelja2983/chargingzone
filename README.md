@@ -205,4 +205,6 @@ For support, email mike@michaelja.co.uk.
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - I would like to thank all of the team at Code Institute for Support. 
+ - I would also like to thank my tutor at Runshaw College Ross Phillips for invaluable support and guidence.
 

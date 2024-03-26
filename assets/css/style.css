@@ -40,7 +40,11 @@
     color: white;
   }
   #charging-zone-aims {
-      background-color: #90E0EF
+      background-color: #118efa;
+  }
+
+  .navbar-custom {
+    background-color: #118efa;
   }
   
   hr {
@@ -63,7 +67,7 @@
       margin: 0 auto;
   }
       #connector-types {
-          background-color: #023E8A;
+          background-color: #1144fa;
       }
       #welcome-title {
           margin: 20px 0;
@@ -88,7 +92,7 @@
       }
   footer {
       padding: 1rem;
-      background-color: #90E0EF;
+      background-color: #118efa;
   }
       #charging-zone-aims {
           width: 100%;
@@ -111,7 +115,7 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-color: #90E0EF;
+    background-color: #1144fa;
          }
 
 .container-contact {
@@ -135,7 +139,7 @@
   }
   
   .contactus {
-      background-color: #023E8A;
+      background-color: #1144fa;
       padding: 30px;
       
   }
@@ -147,7 +151,7 @@
   }
   .text-center h4 {
       padding-left: 60px;
-      color: red;
+      color: white;
       text-align: center;
   }
   .address-contact {
@@ -194,7 +198,7 @@
       float: left;
   }
   .charging-zone h4 {
-      color: red;
+      color: white;
       text-align: center;
   }
   .charging-zone i {
@@ -211,7 +215,7 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-color: #90E0EF
+    background-color: #1144fa;
   }
 
   #contact-us h3 {
