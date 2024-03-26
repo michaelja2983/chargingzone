@@ -2,7 +2,7 @@
 
 The Charging Zone App/Site was developed to address the needs to electric vehicle owners. The site is a one stop shop to locate electric chargers nearest to the user. It goes further to educate owners about charger connector types and offers that chance to join a membership club which will offer key information.
 
-Please follow this link to the live deployed site.
+[Live webpage](https://michaelja2983.github.io/chargingzone/)
 
 
 
@@ -93,15 +93,10 @@ The website is designed to be appealing and easy to navigate. In the header is a
 <img src="/assets/docs/homepage.png">
 </details>
 <details><summary>Charging Locations</summary>
-<img src="docs/wireframes/wireframes-about.png">
+<img src="/assets/docs/charginglocations.pngg">
 </details>
 <details><summary>Contact Us</summary>
-<img src="docs/wireframes/wireframes-menu.png">
-
-
-Home>
-Charging Locations>
-Contact us>
+<img src="/assets/docs/contactus.png">
 
 
 ### Tech Stack
