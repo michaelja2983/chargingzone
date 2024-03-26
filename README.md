@@ -93,10 +93,11 @@ The website is designed to be appealing and easy to navigate. In the header is a
 <img src="/assets/docs/homepage.png">
 </details>
 <details><summary>Charging Locations</summary>
-<img src="/assets/docs/charginglocations.pngg">
+<img src="/assets/docs/charginglocations.png">
 </details>
 <details><summary>Contact Us</summary>
 <img src="/assets/docs/contactus.png">
+</details>
 
 
 ### Tech Stack
