@@ -87,7 +87,17 @@ The website is designed to be appealing and easy to navigate. In the header is a
 *A charging map which allows users to locate the nearest electric charger to them.
 *A contact us page with a simple form that can be completed to contact the business. 
 
-Wireframes
+### Wireframes
+
+<details><summary>Home</summary>
+<img src="docs/homepage.png">
+</details>
+<details><summary>Charging Locations</summary>
+<img src="docs/wireframes/wireframes-about.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs/wireframes/wireframes-menu.png">
+
 
 Home>
 Charging Locations>
