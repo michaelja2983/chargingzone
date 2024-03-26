@@ -25,11 +25,11 @@ My name is Michael (Mike) I am currently a student enrolled with the Code Instit
 HTML & CSS
 
 
-## User Experience
+### User Experience
 
 As a user of the site I want to;
 
-# TARGET AUDIENCE
+### TARGET AUDIENCE
 
 *People looking for information on electric charger types.
 *People looking for information on electric charging.
@@ -37,7 +37,7 @@ As a user of the site I want to;
 *Those that own electric vehicle.
 *Those who may be interest in purchasing an electric vehicle charger, gaining information on charging solutions and connectors.
 
-# USER REQUIREMENTS AND EXPECTATIONS
+### USER REQUIREMENTS AND EXPECTATIONS
 
 *A well written easy to nagivate website.
 *Clear logically laid out information.
@@ -48,13 +48,13 @@ As a user of the site I want to;
 *A site that is presented well and is visually appealing to the end user.
 *There is a clear and logical way to contact the business.
 
-# USER STORIES
+### USER STORIES
 
 1. As a user I will want to be able to understand the differnt types of electric charger connectors and their relevant speeds.
 2. I will want to know the benefits of joining the membership scheme without having to search for further information.
 3. I will want to navigate the map and with ease source the closest charging point to my intended destination or location. 
 
-# RETURNING USER
+### RETURNING USER
 
 4. As a returning user I will want to be able to navigate to the map and search for chargers on an ongoing basis.
 5. I will want to check for updates particularly in relation to the membership scheme. 
@@ -67,19 +67,19 @@ As a user of the site I want to;
 
 ## DESIGN
 
-# Design Choices
+### Design Choices
 
 The site was designed with the user in mind, it has been created to offer a clean focused method of passing information.
 
-# Colors
+### Colors
 
 Colors were chosen to complement the HERO image, warm and inviting blues with contrasting red has been chosen as a striking, bold an inviting space. To find the best complemenry colours I used ADOBE color which once selected were tested on WebAIM to ensure the constrast of colours was best suited together.
 
 ![colors](https://github.com/michaelja2983/chargingzone/assets/148334530/fde9bf9b-9fea-4950-9dc1-18a8977289b3)
 
-# Font
+### Font
 
-# Website Structure
+### Website Structure
 
 The website is designed to be appealing and easy to navigate. In the header is an easy to use navigation bar, which directly below a HERO image of an vehicle with shown with a text info overlay. The page then flows with an objective and aims section quickly setting out what the site is about. Next the page flows into an info section on electric charger connectors before concluding with a Footer section with social media links. The website consists of three pages;
 
@@ -94,7 +94,7 @@ Charging Locations>
 Contact us>
 
 
-## Tech Stack
+### Tech Stack
 
 **Languages:** HTML and CSS
 
