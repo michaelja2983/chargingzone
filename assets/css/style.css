@@ -75,11 +75,19 @@
           text-align: center;
       
       }
-      .types h4 {
+
+.types h5 {
+    color: white;
+    text-align: center;
+
+}
+
+ .types h4 {
            color: white;
            text-align: center;
       }
-      .types h3 {
+
+ .types h3 {
           color: white;
           text-align: center;
           padding-top: 30px;
