@@ -40,10 +40,6 @@
     color: white;
   }
   
-  .navbar-custom {
-    background-color: #f9f7f0;
-    color: white;
-  }
   
   hr {
       border-top: 1px solid #777777;
@@ -208,18 +204,21 @@
       display: inline-block;
       float: left;
   }
-  .charging-zone h4 {
+  .charging-zone h3 {
       color: white;
       text-align: center;
+      padding-top: 20px;
   }
   .charging-zone i {
       padding-left: 30px;
       color: white;
   }
-  .charging-zone h2 {
+  .charging-zone h4 {
       text-align: center;
       padding-top: 30px;
-      color: white
+      color: white;
+      padding-top: 15px;
+      padding-bottom: 15px
   }
   .charging-zone p {
       text-align: center;
@@ -279,15 +278,21 @@
         background-color: #18b7be;
     }
 
-    .navbar-toggler-icon {
-        background-color: white;
-    }
-  
+    
     .navbar a {
         color: black;
         font-weight: 600;
     }
 
+
+    .navbar {
+        background-color: #f9f7f0;
+    }
+
+    .join-the-club {
+        display: block;
+        margin: auto;
+    }
 
 
 
