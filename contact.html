@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-custom navbar-expand-lg ">
+      <nav class="navbar navbar-custom navbar-expand-lg">
         <a class="navbar-brand" href="#">The Charging Zone</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,29 +38,57 @@
     <section id="contact-us">
         <h3>Please get in touch using the form below</h3>
         <div class="container-contact">
-          <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputFirst4">First Name</label>
-                <input type="text" class="form-control" id="inputFirst4">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputSurname4">Last Name</label>
-                <input type="text" class="form-control" id="inputSurname4">
-              </div>
-            </div>
+          <form class="form-horizontal">
+            <fieldset>
+            
+            <!-- Form Name -->
+            <legend>Contact Us</legend>
+            
+            <!-- Text input-->
             <div class="form-group">
-              <label for="inputEmail">Email</label>
-              <input type="email" class="form-control" id="inputEmail">
-            </div>      
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="textarea">Message</label>
-                <input type="textarea" class="form-control" id="textarea">
-              </div>             
+              <label class="col-md-4 control-label" for="fname">First Name</label>  
+              <div class="col-md-4">
+              <input id="fname" name="fname" type="text" placeholder="Please enter your first name" class="form-control input-md">
+                
+              </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="sname">Surname</label>  
+              <div class="col-md-4">
+              <input id="sname" name="sname" type="text" placeholder="Please enter your surname" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="email">E-mail Address</label>  
+              <div class="col-md-4">
+              <input id="email" name="email" type="text" placeholder="E-mail Address" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            <!-- Textarea -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="messagearea">Message</label>
+              <div class="col-md-4">                     
+                <textarea class="form-control" id="messagearea" name="messagearea">Please enter the message you would like to send us</textarea>
+              </div>
+            </div>
+            
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="singlebutton"></label>
+              <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+            
+            </fieldset>
+            </form>
           </div>
 </section>
 <footer>

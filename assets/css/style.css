@@ -35,17 +35,14 @@
     width: 80%;
     height: auto;
     padding: 2rem;
-    background-color: rgba(224, 229, 233, 0.7);
+    background-color: rgba(24, 183, 190, 0.7);
     margin: 3rem;
-    color: #191718;
+    color: white;
   }
-  #charging-zone-aims {
-      background-color: #285185;
-  }
-
+  
   .navbar-custom {
-    background-color: #e0e5e9;
-    color: #191718;
+    background-color: #f9f7f0;
+    color: white;
   }
   
   hr {
@@ -67,9 +64,7 @@
       border-radius: 50%;
       margin: 0 auto;
   }
-      #connector-types {
-          background-color: #D67940;
-      }
+    
       #welcome-title {
           margin: 20px 0;
           text-align: center;
@@ -93,13 +88,14 @@
       }
   footer {
       padding: 1rem;
-      background-color: #118efa;
+      background-color: #f9f7f0;
+      color: black
   }
       #charging-zone-aims {
           width: 100%;
           height: auto;
           margin: 0 auto ;
-          background-color: #191718;
+          background-color: #178ca4;
       }
 
       #welcome {
@@ -111,7 +107,7 @@
           width: 100%;
           height: auto;
           margin: 0 auto;
-          background-color: #0a62d0 ;
+          background-color: #072a40;
           
               }
       
@@ -120,7 +116,7 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-color: #1144fa;
+    background-color: #072a40;
          }
 
 .container-contact {
@@ -133,6 +129,7 @@
       text-align: center;
       padding-top: 40px;
       padding-bottom: 40px;
+      color: white;
       
       
   }
@@ -140,25 +137,33 @@
   #charging h4 {
     text-align: center;
     padding-top: 40px;
+    color: white;
 
+  }
+
+  #charging p {
+    color: white;
   }
   
   .contactus {
-      background-color: #1144fa;
+      background-color: #072a40;
       padding: 30px;
       
   }
   .contactus h3 {
       text-align: center;
+      color: white;
   }
   .charging-map {
       padding-top: 30px;
   }
   .text-center h4 {
       padding-left: 60px;
-      color: white;
+      color: black;
       text-align: center;
   }
+
+
   .address-contact {
       text-align: right;
   }
@@ -196,6 +201,7 @@
     width: 250px;
     text-align: left;
     margin-left: 20px;
+    
 }
 
   input {
@@ -203,52 +209,57 @@
       float: left;
   }
   .charging-zone h4 {
-      color: #f3d849;
+      color: white;
       text-align: center;
   }
   .charging-zone i {
       padding-left: 30px;
+      color: white;
   }
   .charging-zone h2 {
       text-align: center;
       padding-top: 30px;
-      color: #f3d849;
+      color: white
   }
   .charging-zone p {
       text-align: center;
-      color: #f3d849;
+      color: white;
   }
 
   #contact-us {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-color: #1144fa;
+    background-color: #072a40;
   }
 
   #contact-us h3 {
       text-align: center;
       padding-top: 30px;
-  }
-  input[type=text], select, textarea {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-      margin-top: 6px;
-      margin-bottom: 16px;
-      resize: vertical;
-    }
-    
-    input[type=submit] {
-      background-color: #04AA6D;
+      padding-bottom: 30px;
       color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
     
     input[type=submit]:hover {
       background-color: #45a049;
@@ -259,7 +270,23 @@
       background-color: #f2f2f2;
       padding: 20px;
     }
+
+    .contact-container {
+        background-color: #18b7be;
+    }
+
+    .form-horizontal {
+        background-color: #18b7be;
+    }
+
+    .navbar-toggler-icon {
+        background-color: white;
+    }
   
+    .navbar a {
+        color: black;
+        font-weight: 600;
+    }
 
 
 
