@@ -1,3 +1,5 @@
+
+
 .container {
     width: 100%;
     max-width: 1080px;
@@ -296,15 +298,11 @@
     }
 
     .nav-join-the-club {
-        text-align: right;
+       text-align: right;
     }
 
+    .modal-body h5 ol {
+        color: black;
+    }
 
-
-
-
-
-
-
-
-
+   

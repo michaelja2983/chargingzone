@@ -18,9 +18,8 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -83,14 +82,55 @@
               </button>
             </div>
             <div class="modal-body">
-              <p>Please fill in your details below and we will forward you further information on becoming a member</p>
-                <form action="/action_page.php">
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" value="John"><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value="Doe"><br><br>
-                <input type="submit" aria-label="submit" value="Submit">
-              </form> 
+              <h5>Please fill in your details below and we will register you as a member</h5>
+              <br>
+              <h6>Benefits of joining</h6>
+              <ol>
+                <li>No Cost or charge for membership</li>
+                <li>Details of charging memberships with companies offering electric charging</li>
+                <li>Details of reduced charging fees</li>
+                <li>A monthly newsletter</li>
+              </ol>
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="form-horizontal">
+                  <fieldset>
+                <!-- Text input-->
+
+                <div class="form-group">
+  <label class="col-md-4 control-label" for="fname">First Name</label>  
+  <div class="col-md-4">
+  <input id="fname" name="fname" type="text" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="sname">Surname</label>  
+  <div class="col-md-4">
+  <input id="sname" name="sname" type="text" placeholder="Doe" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">E-mail Address</label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="E-mail Address" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+</fieldset>
+
+</form> 
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
