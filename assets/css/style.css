@@ -6,7 +6,7 @@
     margin: 0 auto;
   }
   #hero-image {
-      height:auto;
+      height:300px;
       width:100%;
       background: url("../images/hero.jpg") no-repeat center center;
       animation-name: hero-zoom;
@@ -93,7 +93,7 @@
           width: 100%;
           height: auto;
           margin: 0 auto ;
-          background-color: #178ca4;
+          background-color: #072a40;
       }
 
       #welcome {
@@ -105,7 +105,7 @@
           width: 100%;
           height: auto;
           margin: 0 auto;
-          background-color: #072a40;
+          background-color: #178ca4;
           
               }
       
