@@ -1,36 +1,33 @@
-
-
 .container {
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
-  }
-  #hero-image {
-      height:300px;
-      width:100%;
-      background: url("../images/hero.jpg") no-repeat center center;
-      animation-name: hero-zoom;
-      animation-duration: 5s;
-      animation-fill-mode: forwards ;
-     
-      }
-  .img-thumbnail {
-      padding: 0.25rem;
-      width: 100%;
+}
+#hero-image {
+    height: 300px;
+    width: 100%;
+    background: url("../images/hero.jpg") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+.img-thumbnail {
+    padding: 0.25rem;
+    width: 100%;
+}
+#hero-outer {
+    overflow: hidden;
+    position: relative;
+}
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
     }
-  #hero-outer {
-      overflow: hidden;
-      position: relative;
-  }
-  @keyframes hero-zoom {
-      from {
-          transform: scale(1);
-      }
-      to {
-          transform: scale(1.1);
-      }
-  }
-  #covertext {
+    to {
+        transform: scale(1.1);
+    }
+}
+#covertext {
     font-size: 80%;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -40,90 +37,105 @@
     background-color: rgba(24, 183, 190, 0.7);
     margin: 3rem;
     color: white;
-  }
-  
-  
-  hr {
-      border-top: 1px solid #777777;
-      width: 100%;
-      margin: 4px 0;
-  }
-  #welcome {
-      margin: 20px 0;
-      text-align: center;
-      }
-  #circle-holder {
-      width: 300px;
-      height: 300px;
-      padding: 30px;
-      border-style: solid;
-      border-color: #cccccc;
-      border-width: 1px;
-      border-radius: 50%;
-      margin: 0 auto;
-  }
-    
-      #welcome-title {
-          margin: 20px 0;
-          text-align: center;
-          padding-top: 50px;
-          color: white;
-      }
-      .types p {
-          padding-top: 20px;
-          color:white;
-          text-align: center;
-      
-      }
+   font-family: "OpenSans", sans-serif;
+}
+
+label {
+    color: white;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+form {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+hr {
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 4px 0;
+}
+#welcome {
+    margin: 20px 0;
+    text-align: center;
+}
+#circle-holder {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#welcome-title {
+    margin: 20px 0;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-family: "OpenSans", sans-serif;
+}
+.types p {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: "OpenSans", sans-serif;
+}
 
 .types h5 {
     color: white;
     text-align: center;
+    font-family: "OpenSans", sans-serif;
+}
+
+.types h4 {
+    color: white;
+    text-align: center;
+    font-family: "OpenSans", sans-serif;
+}
+
+.types h3 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "OpenSans", sans-serif;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #f9f7f0;
+    color: black;
 
 }
 
- .types h4 {
-           color: white;
-           text-align: center;
-      }
-
- .types h3 {
-          color: white;
-          text-align: center;
-          padding-top: 30px;
-      }
-  footer {
-      padding: 1rem;
-      background-color: #f9f7f0;
-      color: black
-  }
-      #charging-zone-aims {
-          width: 100%;
-          height: auto;
-          margin: 0 auto ;
-          background-color: #072a40;
-      }
-
-      #welcome {
-          padding: 30px 0;
-          margin-top: 0;
-      }
-       
-      #connector-types {
-          width: 100%;
-          height: auto;
-          margin: 0 auto;
-          background-color: #178ca4;
-          
-              }
-      
-      
-  #charging {
+#charging-zone-aims {
     width: 100%;
     height: auto;
     margin: 0 auto;
     background-color: #072a40;
-         }
+}
+
+#welcome {
+    padding: 30px 0;
+    margin-top: 0;
+}
+
+#connector-types {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #178ca4;
+}
+
+#charging {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #072a40;
+}
 
 .container-contact {
     width: 100%;
@@ -131,195 +143,173 @@
     margin: 0 auto;
 }
 
-  #charging h3 {
-      text-align: center;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      color: white;
-      
-      
-  }
+#charging h3 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-family: "OpenSans", sans-serif;
+}
 
-  #charging h4 {
+#charging h4 {
     text-align: center;
     padding-top: 40px;
     color: white;
-
-  }
-
-  #charging p {
-    color: white;
-  }
-
- 
-  .contactus {
-      background-color: #072a40;
-      padding: 30px;
-      
-  }
-  .contactus h3 {
-      text-align: center;
-      color: white;
-  }
-  .charging-map {
-      padding-top: 30px;
-  }
-  .text-center h4 {
-      padding-left: 60px;
-      color: black;
-      text-align: center;
-  }
-
-
-  .address-contact {
-      text-align: right;
-  }
-  .social-network h3 {
-      display: inline-block;
-      text-align: center;
-      
-  }
-  .special-social {
-    width: 100%;
-  }
-  .special-social button {
-    width: 23%;
-  }
-  .social-network li {
-      display: inline-block;
-      text-align: center;
-      
-  }
-  .social-networks i {
-      font-size: 110%;
-      color: #777777;
-      text-align: center;
-      padding: 0;
-      margin: 0 auto;
-  }
-  ul {
-      list-style-type: none;
-  }
-
-  label {
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: left;
-    margin-left: 20px;
-    
+    font-family: "OpenSans", sans-serif;
 }
 
-  input {
-      display: inline-block;
-      float: left;
-  }
-  .charging-zone h3 {
-      color: white;
-      text-align: center;
-      padding-top: 20px;
-  }
-  .charging-zone i {
-      padding-left: 30px;
-      color: white;
-  }
-  .charging-zone h5 {
-      text-align: center;
-      padding-top: 30px;
-      color: white;
-      padding-top: 15px;
-      padding-bottom: 15px
-  }
-  .charging-zone p {
-      text-align: center;
-      color: white;
-  }
+#charging p {
+    color: white;
+    font-family: "OpenSans", sans-serif;
+}
 
-  #contact-us {
+.contactus {
+    background-color: #072a40;
+    padding: 30px;
+}
+.contactus h3 {
+    text-align: center;
+    color: white;
+    font-family: "OpenSans", sans-serif;
+}
+.charging-map {
+    padding-top: 30px;
+}
+.text-center h4 {
+    padding-left: 60px;
+    color: black;
+    text-align: center;
+    font-family: "OpenSans", sans-serif;
+}
+
+.address-contact {
+    text-align: right;
+}
+.social-network h3 {
+    display: inline-block;
+    text-align: center;
+}
+.special-social {
+    width: 100%;
+}
+.special-social button {
+    width: 23%;
+}
+.social-network li {
+    display: inline-block;
+    text-align: center;
+}
+.social-networks i {
+    font-size: 110%;
+    color: #777777;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+}
+
+input {
+    display: inline-block;
+    float: left;
+}
+.charging-zone h3 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "OpenSans", sans-serif;
+}
+.charging-zone i {
+    padding-left: 30px;
+    color: white;
+}
+.charging-zone h5 {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "OpenSans", sans-serif;
+}
+.charging-zone p {
+    text-align: center;
+    color: white;
+    font-family: "OpenSans", sans-serif;
+}
+
+#contact-us {
     width: 100%;
     height: auto;
     margin: 0 auto;
     background-color: #072a40;
-  }
+}
 
-  #contact-us h3 {
-      text-align: center;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      color: white;
-  }
-
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
+#contact-us h3 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-    
-    input[type=submit]:hover {
-      background-color: #45a049;
-    }
-    
-    .container-contact {
-      border-radius: 5px;
-      background-color: #f2f2f2;
-      padding: 20px;
-      }
+    font-family: "OpenSans", sans-serif;
+}
 
-    .contact-container {
-        background-color: #18b7be;
-    }
+.container-contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
 
-    .form-horizontal {
-        background-color: #18b7be;
-    }
+.contact-container {
+    background-color: #18b7be;
+}
 
-    
-    .navbar a {
-        color: black;
-        font-weight: 600;
-    }
+.form-horizontal {
+    background-color: #18b7be;
+}
 
+.navbar a {
+    color: black;
+    font-weight: 600;
+    font-family: "OpenSans", sans-serif;
+}
 
-    .navbar {
-        background-color: #f9f7f0;
-    }
+.navbar {
+    background-color: #f9f7f0;
+}
 
-    .join-the-club {
-        display: block;
-        margin: auto;
-    }
+.join-the-club {
+    display: block;
+    margin: auto;
+}
 
-    .nav-join-the-club {
-       text-align: right;
-    }
+.nav-join-the-club {
+    text-align: right;
+}
 
-    .modal-body h5 ol {
-        color: black;
-    }
+.modal-body h5 ol {
+    color: black;
+    font-family: "OpenSans", sans-serif;
+}
 
-    .icons {
-        margin-right: 20px;
-    }
+.icons {
+    margin-right: 20px;
+}
 
-    .form-horizontal legend {
-        padding-left: 30px;
-        font-weight: 500;
-        padding-top: 20px;
-    }
-   
+.form-horizontal legend {
+    padding-left: 30px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.popup-form h5 {
+    color: black;
+    font-family: "OpenSans", sans-serif;
+}
+
+.popup-form label {
+    color: black;
+}
+
+#exampleModalLabel {
+    color: black;
+}

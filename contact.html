@@ -12,85 +12,98 @@
 
 </head>
 <body>
-    <header>
-      <nav class="navbar navbar-light navbar-expand-lg">
-        <a class="navbar-brand" href="#">The Charging Zone</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/chargingmap.html">Charging Locations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact Us<span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-          <button type="button" class="btn btn-primary nav-join-the-club" data-toggle="modal" data-target="#exampleModal">Join The Club</button>
-         </div>
-      </nav>
+  <header>
+    <!--Navigation Bar - code from Bootstrap with-->
+                <nav class="navbar navbar-light navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html">The Charging Zone</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="chargingmap.html">Charging Locations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-primary nav-join-the-club" data-toggle="modal" data-target="#exampleModal">Join The Club</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Welcome to Join the Club</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                  </button>
+                              </div>
+                              <div class="modal-body popup-form">
+                                <!--HTML within the Modal Pop Up-->
+                                  <h5 >Please fill in your details below and we will register you as a member</h5>
+                                  <br>
+                                  <h6>Benefits of joining</h6>
+                                  <ol>
+                                      <li>No Cost or charge for membership</li>
+                                      <li>Details of charging memberships with companies offering electric charging</li>
+                                      <li>Details of reduced charging fees</li>
+                                      <li>A monthly newsletter</li>
+                                  </ol>
+                                  <!--Form Created inside Modal, Action Link to Code Institute Form Dump-->
+                                  <form method="POST" action="https://formdump.codeinstitute.net/">
+                                      <div class="form-group w-50">
+                                        <label for="fname">First Name</label>
+                                        <input type="text" class="form-control" id="fname" placeholder="Jon" name="fname">
+                                      </div>
+                                      <div class="form-group w-50">
+                                        <label for="sname">Surname</label>
+                                        <input type="text" class="form-control" id="sname" placeholder="Doe" name="sname">
+                                      </div>
+                                      <div class="form-group w-50">
+                                        <label for="exampleFormControlInput1">Email address</label>
+                                        <input type="email" class="form-control" id="email1" placeholder="name@example.com" name="email1">
+                                      </div>
+                                      
+                                      <button type="submit" class="form-control btn-primary w-50">Submit</button>
+                                    </form>
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                      
+
+                </nav>
     </header>
     
     <section id="contact-us">
       <h3>Please get in touch using the form below</h3>
-      <div class="container-contact">
-        <form class="form-horizontal" action="/submit.php" method="post">
-          <fieldset>
-          
-          <!-- Form Name -->
-          <legend>Contact Us</legend>
-          
-          <!-- Text input-->
-          <div class="form-group">
-            <label class="col-md-4 control-label" for="fname">First Name</label>  
-            <div class="col-md-4">
-            <input id="fname" name="fname" type="text" placeholder="Please enter your first name" class="form-control">
-              
-            </div>
-          </div>
-          
-          <!-- Text input-->
-          <div class="form-group">
-            <label class="col-md-4 control-label" for="sname">Surname</label>  
-            <div class="col-md-4">
-            <input id="sname" name="sname" type="text" placeholder="Please enter your surname" class="form-control">
-              
-            </div>
-          </div>
-          
-          <!-- Text input-->
-          <div class="form-group">
-            <label class="col-md-4 control-label" for="email">E-mail Address</label>  
-            <div class="col-md-4">
-            <input id="email" name="email" type="text" placeholder="E-mail Address" class="form-control">
-              
-            </div>
-          </div>
-          
-          <!-- Textarea -->
-          <div class="form-group">
-            <label class="col-md-4 control-label" for="messagearea">Message</label>
-            <div class="col-md-4">                     
-              <textarea class="form-control" id="messagearea" name="messagearea">Please enter the message you would like to send us</textarea>
-            </div>
-          </div>
-          
-          <!-- Button -->
-          <div class="form-group">
-            <label class="col-md-4 control-label" for="singlebutton"></label>
-            <div class="col-md-4">
-              <button id="singlebutton" name="singlebutton" class="btn btn-primary">Submit</button>
-            </div>
-            </div>
-          
-          </fieldset>
-          
+      <form method="POST" action="https://formdump.codeinstitute.net/">
+        <div class="form-group w-50">
+          <label for="fname">First Name</label>
+          <input type="text" class="form-control" id="fname" placeholder="Jon" name="fname">
         </div>
+        <div class="form-group w-50">
+          <label for="sname">Surname</label>
+          <input type="text" class="form-control" id="sname" placeholder="Doe" name="sname">
+        </div>
+        <div class="form-group w-50">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="email1" placeholder="name@example.com" name="email1">
+        </div>
+        
+        <div class="form-group w-50">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="textarea1" rows="3" name="textarea1"></textarea>
+        </div>
+        <button type="submit" class="form-control btn-primary w-50">Submit</button>
+      </form>
 </section>
 <footer>
   <div class="social">
