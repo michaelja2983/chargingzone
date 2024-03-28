@@ -224,7 +224,7 @@
       padding-left: 30px;
       color: white;
   }
-  .charging-zone h4 {
+  .charging-zone h5 {
       text-align: center;
       padding-top: 30px;
       color: white;
@@ -311,6 +311,10 @@
 
     .modal-body h5 ol {
         color: black;
+    }
+
+    .icons span {
+        padding-right: 10px;
     }
 
    
