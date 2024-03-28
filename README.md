@@ -172,6 +172,12 @@ with screen shots.
 
 
 ## BUGS
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Fixed map non responsibe when on smaller devices. | auto width and height applied to CSS google mapping. |
+| HTML forms not allowing users to enter text into fields. | tbc |
+
 ## Deployment
 
 The website was deployed using GitHub Pages by following these steps:

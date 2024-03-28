@@ -313,8 +313,13 @@
         color: black;
     }
 
-    .icons span {
-        padding-right: 10px;
+    .icons {
+        margin-right: 20px;
     }
 
+    .form-horizontal legend {
+        padding-left: 30px;
+        font-weight: 500;
+        padding-top: 20px;
+    }
    
