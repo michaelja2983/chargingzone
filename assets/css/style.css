@@ -1,3 +1,7 @@
+
+
+
+
 .container {
     width: 100%;
     max-width: 1080px;
@@ -168,6 +172,10 @@ footer {
     font-weight: 400;
 }
 
+#charging button {
+    text-align: center;
+}
+
 #charging p {
     color: white;
     font-family: "OpenSans", sans-serif;
@@ -297,12 +305,14 @@ input {
 }
 
 .central-button {
-    color: white;
-    background-color: #096477;    
-    border-color: #6fadf0;
-    box-shadow: 3px 3px 3px whitesmoke;
+    color: #fff;
+    background-color: #007bff;   
+    border-color: #007bff; 
     text-align: center;
     font-weight: 600;
+    display: block;
+    margin: auto;
+    max-width: 300px;
 }
 
 .modal-body h5 ol {
@@ -338,3 +348,5 @@ input {
 .map {
     width: 100%;
 }
+
+
