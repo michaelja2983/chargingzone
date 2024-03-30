@@ -134,7 +134,7 @@ footer {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-color: #178ca4;
+    background-color: #096477;
 }
 
 #charging {
@@ -319,4 +319,11 @@ input {
 
 #exampleModalLabel {
     color: black;
+}
+
+.btn-primary {
+    color: #fff;    
+    background-color: #081653;
+    border-color: #6fadf0;
+    box-shadow: 3px 3px 3px whitesmoke;
 }
