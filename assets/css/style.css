@@ -156,13 +156,16 @@ footer {
     padding-bottom: 40px;
     color: black;
     font-family: "OpenSans", sans-serif;
+    font-size: xx-large;
 }
 
-#charging h4 {
+#charging h2 {
     text-align: center;
     padding-top: 40px;
     color: white;
     font-family: "OpenSans", sans-serif;
+    font-size: larger;
+    font-weight: 400;
 }
 
 #charging p {
@@ -299,6 +302,7 @@ input {
     border-color: #6fadf0;
     box-shadow: 3px 3px 3px whitesmoke;
     text-align: center;
+    font-weight: 900;
 }
 
 .modal-body h5 ol {
