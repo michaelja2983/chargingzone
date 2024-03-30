@@ -297,8 +297,7 @@ input {
 }
 
 .central-button {
-    color: #fff;    
-    background-color: #081653;
+    background-color: red;    
     border-color: #6fadf0;
     box-shadow: 3px 3px 3px whitesmoke;
     text-align: center;
