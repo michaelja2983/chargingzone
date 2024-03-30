@@ -327,3 +327,7 @@ input {
     border-color: #6fadf0;
     box-shadow: 3px 3px 3px whitesmoke;
 }
+
+.map {
+    width: 100%;
+}
