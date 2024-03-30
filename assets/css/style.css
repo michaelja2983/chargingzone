@@ -293,6 +293,14 @@ input {
     text-align: right;
 }
 
+.central-button {
+    color: #fff;    
+    background-color: #081653;
+    border-color: #6fadf0;
+    box-shadow: 3px 3px 3px whitesmoke;
+    text-align: center;
+}
+
 .modal-body h5 ol {
     color: black;
     font-family: "OpenSans", sans-serif;
@@ -321,12 +329,7 @@ input {
     color: black;
 }
 
-.btn-primary {
-    color: #fff;    
-    background-color: #081653;
-    border-color: #6fadf0;
-    box-shadow: 3px 3px 3px whitesmoke;
-}
+
 
 .map {
     width: 100%;
