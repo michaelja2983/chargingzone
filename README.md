@@ -60,7 +60,7 @@ As a user of the site I want to;
 5. I will want to check for updates particularly in relation to the membership scheme. 
 6. As a returning user I will want to be able to contact the business or find the business on social media. 
 
-#SITE OWNER  
+### SITE OWNER  
 
 7. I will want to showcase new information to the user.
 8. I will want end users to be able to contact me to pass feedback or make an enquiry.
@@ -165,23 +165,61 @@ Contact us Form.
 <img src="/assets/images/wave contact.JPG">
 </details>
 
-Performance
+### Performance
 using Google lighthouse
 
 Home 
 Charing Locations
 Contact
 
-Testing on Various Devices
-xyz
+### Performance on differing devices
 
-BROWSER COMPATITIBILITY
-tested on xyz
+The website was tested on the following devices;
 
-TESTING THE USER STORIES
-xyz
-with screen shots.
+*Desktop
+*IPAD
+*IPhone 
 
+### Browser Compatability
+
+The website was tested fully on the following browsers;
+
+*Google Chrome.
+*Microsoft Edge
+
+### Testing user stories
+
+1. As a user I will want to be able to understand the differnt types of electric charger connectors and their relevant speeds.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main page info pannel | Navigate to the Home page and scroll down | Locating the infomation pane | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/user story electric charger.JPG">
+</details>
+
+2. I will want to know the benefits of joining the membership scheme without having to search for further information.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Main page info pannel | Navigate to the Home page and scroll down | Locating the infomation pane | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/user story join.JPG">
+</details>
+
+3. I will want to navigate the map and with ease source the closest charging point to my intended destination or location. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Charging Locations page | Navigate to the Home page and click navigation link to charging location | Clicking of link takes user to charging locations page with map visable and simple instructions | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/user story charging 1.JPG">
+<img src="/assets/images/user story charging 2.JPG">
+</details>
 
 ## BUGS
 
