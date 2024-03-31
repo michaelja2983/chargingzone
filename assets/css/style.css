@@ -232,6 +232,7 @@ input {
     display: inline-block;
     float: left;
 }
+
 .charging-zone h3 {
     color: white;
     text-align: center;
@@ -300,27 +301,7 @@ input {
     margin: auto;
 }
 
-.nav-join-the-club {
-    text-align: right;
-    color: #fff;
-    background-color: #ffa500;  
-    border-color: #ffa500; 
-    font-weight: 600;
-    display: block;
-    margin: auto;
-    max-width: 300px;
-}
 
-.central-button {
-    color: #fff;
-    background-color: #ffa500;  
-    border-color: #ffa500; 
-    text-align: center;
-    font-weight: 600;
-    display: block;
-    margin: auto;
-    max-width: 300px;
-}
 
 .modal-body h5 ol {
     color: black;
