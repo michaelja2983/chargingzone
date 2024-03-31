@@ -1,7 +1,5 @@
 
 
-
-
 .container {
     width: 100%;
     max-width: 1080px;
@@ -238,18 +236,20 @@ input {
     text-align: center;
     padding-top: 20px;
     font-family: "OpenSans", sans-serif;
+    padding-top: 30px;
 }
 .charging-zone i {
     padding-left: 30px;
     color: white;
 }
-.charging-zone h5 {
+.charging-zone h4 {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: "OpenSans", sans-serif;
+    
 }
 .charging-zone p {
     text-align: center;
@@ -300,8 +300,6 @@ input {
     display: block;
     margin: auto;
 }
-
-
 
 .modal-body h5 ol {
     color: black;
