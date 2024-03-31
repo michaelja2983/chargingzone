@@ -37,7 +37,7 @@
     }
 }
 #covertext {
-    font-size: 80%;
+    font-size: 60%;
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 80%;
@@ -48,6 +48,16 @@
     color: white;
    font-family: "OpenSans", sans-serif;
 }
+
+#covertext h1 {
+    font-size: 30px;
+}
+
+#covertext h2 {
+    font-size: 20px;
+}
+
+#cov
 
 label {
     color: white;
@@ -194,9 +204,7 @@ footer {
     font-family: "OpenSans", sans-serif;
 }
 
-#mainpage-button {
-    text-align: center;
-}
+
 
 .address-contact {
     text-align: right;
@@ -207,21 +215,11 @@ footer {
 }
 .special-social {
     width: 100%;
-    display: inline-block;
-    text-align: center;
 }
-
-
-.link i {
+.special-social button {
     width: 23%;
-    padding-right: 80px;
-    padding-left: 80px;
-    margin-right: 30px;
-    margin-left: 30px;
-    font-size: 20px;
-    padding-top: 10px;
 }
-.special-social li {
+.social-network li {
     display: inline-block;
     text-align: center;
 }

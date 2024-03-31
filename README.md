@@ -109,7 +109,9 @@ The website is designed to be appealing and easy to navigate. In the header is a
 
 ## FEATURES
 
-The site consists of 3 pages and FEATURES
+### Logo and Navigation Bar
+
+![Logo and navbar] (/assets/images/navigation.JPG)
 
 Navigation Bar
 
