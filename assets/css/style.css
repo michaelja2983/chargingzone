@@ -194,6 +194,10 @@ footer {
     font-family: "OpenSans", sans-serif;
 }
 
+#mainpage-button {
+    text-align: center;
+}
+
 .address-contact {
     text-align: right;
 }
