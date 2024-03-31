@@ -221,6 +221,31 @@ The website was tested fully on the following browsers;
 <img src="/assets/images/user story charging 2.JPG">
 </details>
 
+4. As a returning user I will want to be able to navigate to the map and search for chargers on an ongoing basis.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Charging Locations page | Navigate to the Home page and click navigation link to charging location | Clicking of link takes user to charging locations page with map visable and simple instructions. Chargers are updated to the map automatically on a periodic basis | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/user story charging 1.JPG">
+<img src="/assets/images/user story charging 2.JPG">
+</details>
+
+6. As a returning user I will want to be able to contact the business or find the business on social media. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home Page Footer and Contact Us Page | Navigate to the Home page and scroll to the bottom footer or click the contact tab in the navigation bar | Scrolling to the footer of the main page or clicking the contact us tab | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/user story contact 1.JPG">
+<img src="/assets/images/user story contact 2.JPG">
+<img src="/assets/images/user story contact 3.JPG">
+</details>
+
+
+
 ## BUGS
 
 | **Bug** | **Fix** |
