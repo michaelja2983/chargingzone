@@ -135,23 +135,35 @@ Site charging location Map.
 Contact us Form.
 ## Running Tests / Validation
 
-HTML Validation - using the W3C Mark Up service.
+### HTML Validation - using the W3C Mark Up service.
 
-Home
-Charing Locations
-Contact
+<details><summary>Home</summary>
+<img src="/assets/images/html Validation Index.JPG">
+</details>
+<details><summary>Charging Locations</summary>
+<img src="/assets/images/html validation charging.JPG">
+</details>
+<details><summary>Contact Us</summary>
+<img src="/assets/images/html validation contact.JPG">
+</details>
 
-CSS Validation - using the 
+### CSS Validation - using the W3C CSS Validation Service 
 
-whole page
-style.CSS
+<details><summary>Entire Site</summary>
+<img src="/assets/images/css validator.JPG">
+</details>
 
-ACCESSIBILITY
-using the xyz service 
+### ACCESSIBILITY - using the web accessibility evaluation tool (WAVE)
 
-Home 
-Charing Locations
-Contact
+<details><summary>Home</summary>
+<img src="/assets/images/wave index.JPG">
+</details>
+<details><summary>Charging Locations</summary>
+<img src="/assets/images/wave charging.JPG">
+</details>
+<details><summary>Contact Us</summary>
+<img src="/assets/images/wave contact.JPG">
+</details>
 
 Performance
 using Google lighthouse
