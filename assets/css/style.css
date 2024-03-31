@@ -177,11 +177,12 @@ footer {
     background-color: #072a40;
     padding: 30px;
 }
-.contactus h1 {
+#contact-us h1 {
     text-align: center;
     color: white;
     font-family: "OpenSans", sans-serif;
-    font-size: larger;
+    font-size: 2rem;
+    padding-top: 30px;
 }
 .charging-map {
     padding-top: 30px;
