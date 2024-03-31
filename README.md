@@ -244,6 +244,30 @@ The website was tested fully on the following browsers;
 <img src="/assets/images/user story contact 3.JPG">
 </details>
 
+7. I will want to showcase new information to the user.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home Page join link and map feature bar | Navigate to the Home page and click the join button | clicking the join button or navigating to the charging map| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/us 1.png">
+<img src="/assets/images/us 2.png">
+<img src="/assets/images/us 3.png">
+<img src="/assets/images/us 4.png">
+</details>
+
+8. I will want end users to be able to contact me to pass feedback or make an enquiry.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home Page then to the contact page, where a contact form is visable| Navigate to the Home page and click the contact button | clicking the contact tab from the navigation bar| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="/assets/images/final 1.png">
+<img src="/assets/images/final 2.png">
+</details>
+
 
 
 ## BUGS
