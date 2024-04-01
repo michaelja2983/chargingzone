@@ -245,11 +245,18 @@ Site Information- electric charger connector types.
 </details>
 
 ### Performance
-using Google lighthouse
+- Using Google lighthouse
 
-Home 
-Charing Locations
-Contact
+<details><summary>Home</summary>
+<img src="/assets/images/join button.JPG">
+</details>
+<details><summary>Charging Locations</summary>
+<img src="/assets/images/lighthouse charging.JPG">
+- There is a slight drop in best practises area. This is attributed to the cookies on the IFRAME element attributed to the GOOGLE MY MAPS code.
+</details>
+<details><summary>Contact Us</summary>
+<img src="/assets/images/lighthouse contact.JPG">
+</details>
 
 ### Performance on differing devices
 
