@@ -248,7 +248,7 @@ Site Information- electric charger connector types.
 - Using Google lighthouse
 
 <details><summary>Home</summary>
-<img src="/assets/images/join button.JPG">
+<img src="/assets/images/lighthouse index.JPG">
 </details>
 <details><summary>Charging Locations</summary>
 <img src="/assets/images/lighthouse charging.JPG">
