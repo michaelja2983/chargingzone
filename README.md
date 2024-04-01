@@ -83,6 +83,10 @@ Adaptions were made to the color scheme as a result of the results from the ==ac
 
 ### Font
 
+Open Sans from Google Font's was chosen for its clear easy and professional appeal.
+
+<img src="/assets/images/opensans.JPG">
+
 ### Website Structure
 
 The website is designed to be appealing and easy to navigate. In the header is an easy to use navigation bar, which directly below a HERO image of an vehicle with shown with a text info overlay. The page then flows with an objective and aims section quickly setting out what the site is about. Next the page flows into an info section on electric charger connectors before concluding with a Footer section with social media links. The website consists of three pages;
@@ -345,11 +349,22 @@ For support, email mike@michaelja.co.uk.
 
 
 ## CREDITS
+
+Images not credited or referenced below are owned by the developer of this website.
+
+### CODE
+- HTML for the navigation bar and associated buttons throghout the website [Navbar Modal Buttons](https://getbootstrap.com/docs/4.3/getting-started/introduction/) was taken from Bootstrap.
+- HTML and inspiration for the aims and objectives section [Aim's and Objectives](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/15fe9d557bcc4af5a117465b9150454f/) was taken from the Code Institute Love Running microsite build process.
+- HTML for the Electirc Charger Types on the main page [Navbar Modal Buttons](https://getbootstrap.com/docs/4.3/getting-started/introduction/) was taken from Bootstrap based on their grid system.
+- The code for the mapping system on the Charging Locations Page [Generated Map](https://www.google.co.uk/maps/about/mymaps/) was generated and taken from Google My Maps.
+- The contact form was generated on the Contact Us Page [Navbar Modal Buttons](https://getbootstrap.com/docs/4.3/getting-started/introduction/) was taken from Bootstrap and styled accordingly.
+
 ## Acknowledgements
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Inspiration on READ ME Layout](https://github.com/4n4ru/CI_MS1_BodelschwingherHof/blob/master/README.md?plain=1)
  - I would like to thank all of the team at Code Institute for Support. 
  - I would also like to thank my tutor at Runshaw College Ross Phillips for invaluable support and guidence.
 
