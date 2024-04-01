@@ -31,22 +31,22 @@ As a user of the site I want to;
 
 ### TARGET AUDIENCE
 
-*People looking for information on electric charger types.
-*People looking for information on electric charging.
-*Electric vehicle owners looking for chargers near to their destination of home address.
-*Those that own electric vehicle.
-*Those who may be interest in purchasing an electric vehicle charger, gaining information on charging solutions and connectors.
+- People looking for information on electric charger types.
+- People looking for information on electric charging.
+- Electric vehicle owners looking for chargers near to their destination of home address.
+- Those that own electric vehicle.
+- Those who may be interest in purchasing an electric vehicle charger, gaining information on charging solutions and connectors.
 
 ### USER REQUIREMENTS AND EXPECTATIONS
 
-*A well written easy to nagivate website.
-*Clear logically laid out information.
-*Accessbility.
-*Simple content that is easy to nagivate and read at speed.
-*A site where the information is easy to read.
-*Where relevant links navigate to their intended destination.
-*A site that is presented well and is visually appealing to the end user.
-*There is a clear and logical way to contact the business.
+- A well written easy to nagivate website.
+- Clear logically laid out information.
+- Accessbility.
+- Simple content that is easy to nagivate and read at speed.
+- A site where the information is easy to read.
+- Where relevant links navigate to their intended destination.
+- A site that is presented well and is visually appealing to the end user.
+- There is a clear and logical way to contact the business.
 
 ### USER STORIES
 
@@ -77,15 +77,17 @@ Colors were chosen to complement the HERO image, warm and inviting blues with co
 
 ![colors](https://github.com/michaelja2983/chargingzone/assets/148334530/fde9bf9b-9fea-4950-9dc1-18a8977289b3)
 
+Adaptions were made to the color scheme as a result of the results from the ==accessiblity validator==. This involved experimenting to ensure contrast was appropraite for those that may suffer from visual conditions. 
+
 ### Font
 
 ### Website Structure
 
 The website is designed to be appealing and easy to navigate. In the header is an easy to use navigation bar, which directly below a HERO image of an vehicle with shown with a text info overlay. The page then flows with an objective and aims section quickly setting out what the site is about. Next the page flows into an info section on electric charger connectors before concluding with a Footer section with social media links. The website consists of three pages;
 
-*A home page with aims and objectives and electric connector information.
-*A charging map which allows users to locate the nearest electric charger to them.
-*A contact us page with a simple form that can be completed to contact the business. 
+- A home page with aims and objectives and electric connector information.
+- A charging map which allows users to locate the nearest electric charger to them.
+- A contact us page with a simple form that can be completed to contact the business. 
 
 ### Wireframes
 
@@ -112,34 +114,34 @@ The website is designed to be appealing and easy to navigate. In the header is a
 ### Logo and Navigation Bar
 
 ![Logo and navbar](/assets/images/navigation.JPG) 
--Navbar on all 3 pages.
--Collapsable hamburger bar for small screen sizes.
--Page your on option with current page highlighted.
+- Navbar on all 3 pages.
+- Collapsable hamburger bar for small screen sizes.
+- Page your on option with current page highlighted.
 
 ### Hero Image
 
 ![Hero Image](/assets/images/hero.jpg)
--Responsive Hero Image.
--Auto Zoom Function on Page Load.
--Key Introduction Text.
--Only on the homepage.
--Image encapsulates the theme of the website.
+- Responsive Hero Image.
+- Auto Zoom Function on Page Load.
+- Key Introduction Text.
+- Only on the homepage.
+- Image encapsulates the theme of the website.
 
 
 ### Site Aim's and Objectives
 
 ![Aims](/assets/images/aims.JPG)
--Key list of aims.
--Introduces the key areas of the website.
--Option to Join The Club for further updates.
+- Key list of aims.
+- Introduces the key areas of the website.
+- Option to Join The Club for further updates.
 
 
 ### Modal contained on the header and within Site Aim's and Objectives.
 
 ![Modal](/assets/images/modal1.JPG)
--Responsive modal when clicking the Join the Club button.
--Button available in the header navigation bar of all pages.
--Further button on the homepage under Keeping Social.
+- Responsive modal when clicking the Join the Club button.
+- Button available in the header navigation bar of all pages.
+- Further button on the homepage under Keeping Social.
 
 
 Site Information- electric charger connector types.
@@ -148,26 +150,26 @@ Site Information- electric charger connector types.
 ### Footer with social media links.
 
 ![Social Media](/assets/images/footer.JPG) 
--Footer on all pages, availalbe at the foot of each page.
--Address details along with clickable social media links.
+- Footer on all pages, availalbe at the foot of each page.
+- Address details along with clickable social media links.
 
 
 ### Site charging location Map.
 
 ![Charging Map](/assets/images/charging%20map.JPG)
--Charging Location available from the navigation bar.
--Clear easy to undestand instructions with relative steps.
--Easy to navigation map, zoom into your chosen area and click the choice of location.
--Location displays details of charging location and type of charger.
--Responsive at all screen sizes.
+- Charging Location available from the navigation bar.
+- Clear easy to undestand instructions with relative steps.
+- Easy to navigation map, zoom into your chosen area and click the choice of location.
+- Location displays details of charging location and type of charger.
+- Responsive at all screen sizes.
 
 
 ### Contact us Form.
 
 ![Contact Form](/assets/images/contact%20form.JPG)
--Available from the navigation bar under Contact Us
--Clear easy to complete form.
--Required fields added to the form to avoid spam.
+- Available from the navigation bar under Contact Us
+- Clear easy to complete form.
+- Required fields added to the form to avoid spam.
 
 ## Running Tests / Validation
 
@@ -212,16 +214,16 @@ Contact
 
 The website was tested on the following devices;
 
-*Desktop
-*IPAD
-*IPhone 
+- Desktop
+- IPAD
+- IPhone 
 
 ### Browser Compatability
 
 The website was tested fully on the following browsers;
 
-*Google Chrome.
-*Microsoft Edge
+- Google Chrome.
+- Microsoft Edge
 
 ### Testing user stories
 
