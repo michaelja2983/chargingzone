@@ -111,30 +111,64 @@ The website is designed to be appealing and easy to navigate. In the header is a
 
 ### Logo and Navigation Bar
 
-![Logo and navbar] (/assets/images/navigation.JPG)
+![Logo and navbar](/assets/images/navigation.JPG) 
+-Navbar on all 3 pages.
+-Collapsable hamburger bar for small screen sizes.
+-Page your on option with current page highlighted.
 
-Navigation Bar
+### Hero Image
+
+![Hero Image](/assets/images/hero.jpg)
+-Responsive Hero Image.
+-Auto Zoom Function on Page Load.
+-Key Introduction Text.
+-Only on the homepage.
+-Image encapsulates the theme of the website.
 
 
-Hero Image
+### Site Aim's and Objectives
+
+![Aims](/assets/images/aims.JPG)
+-Key list of aims.
+-Introduces the key areas of the website.
+-Option to Join The Club for further updates.
 
 
-Site Aim's and Objectives.
+### Modal contained on the header and within Site Aim's and Objectives.
 
-
-Modal contained on the header and within Site Aim's and Objectives.
+![Modal](/assets/images/modal1.JPG)
+-Responsive modal when clicking the Join the Club button.
+-Button available in the header navigation bar of all pages.
+-Further button on the homepage under Keeping Social.
 
 
 Site Information- electric charger connector types.
 
 
-Footer with social media links.
+### Footer with social media links.
+
+![Social Media](/assets/images/footer.JPG) 
+-Footer on all pages, availalbe at the foot of each page.
+-Address details along with clickable social media links.
 
 
-Site charging location Map.
+### Site charging location Map.
+
+![Charging Map](/assets/images/charging%20map.JPG)
+-Charging Location available from the navigation bar.
+-Clear easy to undestand instructions with relative steps.
+-Easy to navigation map, zoom into your chosen area and click the choice of location.
+-Location displays details of charging location and type of charger.
+-Responsive at all screen sizes.
 
 
-Contact us Form.
+### Contact us Form.
+
+![Contact Form](/assets/images/contact%20form.JPG)
+-Available from the navigation bar under Contact Us
+-Clear easy to complete form.
+-Required fields added to the form to avoid spam.
+
 ## Running Tests / Validation
 
 ### HTML Validation - using the W3C Mark Up service.
