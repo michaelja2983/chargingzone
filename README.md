@@ -367,4 +367,6 @@ Images not credited or referenced below are owned by the developer of this websi
  - [Inspiration on READ ME Layout](https://github.com/4n4ru/CI_MS1_BodelschwingherHof/blob/master/README.md?plain=1)
  - I would like to thank all of the team at Code Institute for Support. 
  - I would also like to thank my tutor at Runshaw College Ross Phillips for invaluable support and guidence.
+ - [Connector Images](https://www.rac.co.uk/drive/electric-cars/charging/charger-types-connectors-speed/) restyle and coloured for use.
+ - [Hero Image](https://evocharge.com/resources/how-does-ev-charging-work/)
 
