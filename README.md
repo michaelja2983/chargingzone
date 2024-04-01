@@ -38,7 +38,7 @@ HTML & CSS
 3. [Design](#design)
     1. [Design Choices](#design-choices)
     2. [Colour](#colours)
-    3. [Fonts](#fonts)
+    3. [Fonts](#font)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
