@@ -208,7 +208,9 @@ Site Information- electric charger connector types.
 
 ## Running Tests / Validation
 
-### HTML Validation - using the W3C Mark Up service.
+### HTML Validation
+
+- using the W3C Mark Up service.
 
 <details><summary>Home</summary>
 <img src="/assets/images/html Validation Index.JPG">
@@ -220,13 +222,17 @@ Site Information- electric charger connector types.
 <img src="/assets/images/html validation contact.JPG">
 </details>
 
-### CSS Validation - using the W3C CSS Validation Service 
+### CSS Validation 
+
+- using the W3C CSS Validation Service
 
 <details><summary>Entire Site</summary>
 <img src="/assets/images/css validator.JPG">
 </details>
 
-### ACCESSIBILITY - using the web accessibility evaluation tool (WAVE)
+### ACCESSIBILITY 
+
+- using the web accessibility evaluation tool (WAVE)
 
 <details><summary>Home</summary>
 <img src="/assets/images/wave index.JPG">
