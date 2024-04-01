@@ -215,25 +215,18 @@ footer {
 }
 .special-social {
     width: 100%;
-}
-.special-social button {
-    width: 23%;
-}
-.social-network li {
-    display: inline-block;
     text-align: center;
-}
-.social-networks i {
-    font-size: 110%;
-    color: #777777;
-    text-align: center;
-    padding: 0;
-    margin: 0 auto;
-}
-ul {
-    list-style-type: none;
 }
 
+.special-social ul li {
+   display: inline-block;
+   vertical-align: middle;
+   padding-left: 80px;
+   padding-right: 80px;
+   font-size: 20px;
+
+}
+  
 input {
     display: inline-block;
     float: left;
