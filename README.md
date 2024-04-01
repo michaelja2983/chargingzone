@@ -315,7 +315,7 @@ The website was tested fully on the following browsers;
 | **Bug** | **Fix** |
 | ----------- | ----------- |
 | Fixed map non responsibe when on smaller devices. | auto width and height applied to CSS google mapping. |
-| HTML forms not allowing users to enter text into fields. | tbc |
+| HTML forms not allowing users to enter text into fields. | duplicate fields in CSS being applied. Corrections made |
 
 ## Deployment
 
